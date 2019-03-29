@@ -1,3 +1,56 @@
-<p>
-  cart works!
-</p>
+<div class="wrap cf">
+  <h1 class="projTitle">Esto es lo que haz comprado</h1>
+  <div class="heading cf">
+    <h1>Mi Carrito</h1>
+    <a href="http://localhost:4200/newproduct" class="continue">Quiero seguir comprando</a>
+  </div>
+  <div class="cart">
+    <ul class="cartWrap">
+      <li class="items odd">
+        <div class="infoWrap">
+          <div class="cartSection">
+            <img src="http://lorempixel.com/output/technics-q-c-300-300-4.jpg" alt="" class="itemImg" />
+            <p class="itemNumber">#TenisNikeRed</p>
+            <h3>Tenis Nike</h3>
+            <p> <input type="text" class="qty" placeholder="3" /> x Q. 199.99</p>
+            <p class="stockStatus"> Si hay en disponibilidad</p>
+          </div>
+          <div class="prodTotal cartSection">
+            <p>Q199.99</p>
+          </div>
+          <div class="cartSection removeWrap">
+            <a href="#" class="remove">x</a>
+          </div>
+        </div>
+      </li>
+      <li class="items odd">
+        <div class="infoWrap">
+          <div class="cartSection">
+            <img src="http://lorempixel.com/output/technics-q-c-300-300-4.jpg" alt="" class="itemImg" />
+            <p class="itemNumber">#TenisPuma</p>
+            <h3>Tenis Puma</h3>
+            <p> <input type="text" class="qty" placeholder="3" /> x Q250.00</p>
+            <p class="stockStatus out"> No hay en existencias pero vienen en camino</p>
+          </div>
+          <div class="prodTotal cartSection">
+            <p>Q250.00</p>
+          </div>
+          <div class="cartSection removeWrap">
+            <a href="#" class="remove">x</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="promoCode">
+    <label for="promo">¿Posees un codigo de Promocion?</label><input type="text" name="promo" placeholder="Ingresa tu codigo para un descuento" />
+    <a href="#" class="btn"></a></div>
+  <div class="subtotal cf">
+    <ul>
+      <li class="totalRow"><span class="label">Subtotal</span><span class="value">Q199.99</span></li>
+      <li class="totalRow"><span class="label">Envio</span><span class="value">Q25.00</span></li>
+      <li class="totalRow final"><span class="label">Total</span><span class="value">Q224.99</span></li>
+      <li class="totalRow"><a href="#" class="btn continue">Comprar</a></li>
+    </ul>
+  </div>
+</div>
